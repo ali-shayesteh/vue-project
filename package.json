@@ -1,11 +1,11 @@
 {
-  "name": "vue-project",
   "homepage": "https://ali-shayesteh.github.io/vue-project/",
+  "name": "vue-project",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp ./dist/index.html ./dist/404.html",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
