@@ -4,18 +4,20 @@ const items = ref([
   {
     title: 'Home',
     path: '/',
-    active: true
   },
   {
-    title: 'Charts',
-    path: '/charts',
-    active: false
+    title: 'Hello',
+    path: '/hello',
   },
-  {
-    title: 'Table',
-    path: '/table',
-    active: false
-  }
+  // {
+  //   title: 'Charts',
+  //   path: '/charts',
+  // },
+  // {
+  //   title: 'Table',
+  //   path: '/table',
+  //   active: false
+  // }
 ])
 </script>
 
