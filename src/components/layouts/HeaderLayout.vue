@@ -3,12 +3,12 @@ import { ref } from 'vue'
 const items = ref([
   {
     title: 'Home',
-    path: '/',
+    path: '/'
   },
   {
     title: 'Hello',
-    path: '/hello',
-  },
+    path: '/hello'
+  }
   // {
   //   title: 'Charts',
   //   path: '/charts',
@@ -36,10 +36,12 @@ const items = ref([
           </li>
         </ul>
       </nav>
-      <div class="flex items-center gap-2">
-        <!-- <img src={reactIcon} /> -->
-        Vuejs
-      </div>
+      <a href="https://vuejs.org/">
+        <div class="flex items-center gap-2">
+          <img class="w-6 h-6" src="../../assets/logo.svg" />
+          Vuejs
+        </div>
+      </a>
     </div>
   </header>
 </template>
