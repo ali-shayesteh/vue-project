@@ -6,18 +6,17 @@ const items = ref([
     path: '/'
   },
   {
-    title: 'Hello',
-    path: '/hello'
+    title: 'Tables',
+    path: '/tables'
+  },
+  {
+    title: 'Sliders',
+    path: '/sliders'
+  },
+  {
+    title: 'Charts',
+    path: '/charts'
   }
-  // {
-  //   title: 'Charts',
-  //   path: '/charts',
-  // },
-  // {
-  //   title: 'Table',
-  //   path: '/table',
-  //   active: false
-  // }
 ])
 </script>
 
