@@ -6,16 +6,16 @@ const items = ref([
     path: '/'
   },
   {
+    title: 'Charts',
+    path: '/charts'
+  },
+  {
     title: 'Tables',
     path: '/tables'
   },
   {
     title: 'Sliders',
     path: '/sliders'
-  },
-  {
-    title: 'Charts',
-    path: '/charts'
   }
 ])
 </script>
