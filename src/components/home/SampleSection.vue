@@ -1,6 +1,6 @@
 <script setup>
 import { TEXT_SAMPLE } from '../../constants/texts'
-import Stockchart from '../charts/stockchart.vue'
+import Stockchart from '../charts/StockChart.vue'
 import SliderOne from '../slider/SliderOne.vue'
 import TableOne from '../tables/TableOne.vue'
 import HeadingTwo from '../typography/HeadingTwo.vue'
